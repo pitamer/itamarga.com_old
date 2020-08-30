@@ -1,0 +1,180 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+ol,
+ul,
+li {
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  /* border: 1px red dashed; */
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: auto;
+  background: #faf3e6;
+  background-size: 22em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  color: #333;
+}
+
+body {
+  font-family: "Baloo tamma 2", Tahoma, Geneva, Verdana, sans-serif;
+  color: #3f3d3a;
+  overflow: hidden;
+}
+
+#main-wrapper {
+  background-color: #fffdc0;
+  background-image: linear-gradient(to bottom, rgb(133, 215, 247) 0%, #fffdc0);
+}
+
+#title-container {
+  display: flex;
+  padding: 2em;
+  padding-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar {
+  /* -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); */
+  width: 100%;
+  max-width: 7em;
+  border-radius: 20%;
+  border: 2px #fff solid;
+  box-shadow: 0px 0px 0.1em #331604;
+}
+
+#title-text {
+  margin: 0em 1em;
+}
+
+hr {
+  border: 0;
+  height: 2.5px;
+  margin: 2rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.3)
+  );
+}
+
+h1 {
+  font-family: "Caveat", sans-serif;
+  font-size: 3em;
+  padding: 0.4rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-family: "Baloo tamma 2", sans-serif;
+  display: block;
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+  background-size: 25rem;
+}
+
+h3 {
+  font-family: "Caveat", sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+  background-size: 25rem;
+}
+
+p {
+  font-size: 1.15em;
+  padding: 0.8rem;
+  padding-bottom: 2.8rem;
+}
+
+i {
+  font-size: 3em;
+  padding: 0.1em;
+  margin: 0.1em;
+}
+
+.tech-stack {
+  text-align: center;
+}
+
+.tech-stack img {
+  max-height: 3em;
+}
+
+.content-wrapper {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  /* max-width: 50em; */
+}
+
+.content-row {
+    width: 5%;
+}
+
+.section {
+  width: 200px;
+}
+
+.bottom-img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  pointer-events: none;
+  user-zoom: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#bottom-info {
+  background-color: #331604;
+  color: lightgrey;
+}

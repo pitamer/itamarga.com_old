@@ -1,0 +1,13 @@
+.bottom-img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  pointer-events: none;
+  user-zoom: none;
+  user-select: none;
+}
+
+/* #bottom-info {
+  background-color: #331604;
+  color: lightgrey;
+} */

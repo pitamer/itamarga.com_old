@@ -1,0 +1,21 @@
+.skills .skill {
+  display: flex;
+  align-items: center;
+  margin: 1em 0em
+  /* justify-content: right; */
+}
+
+.skills .skill-text {
+  margin: 0px;
+  padding: 0em 1em;
+}
+
+.skills .right {
+  /* justify-self: flex-end; */
+  margin-left: auto;
+  text-align: right;
+}
+
+.skills .right .bubble-wrapper {
+  order: 2;
+}
