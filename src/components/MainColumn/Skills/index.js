@@ -2,12 +2,13 @@ import React from "react";
 import "./index.css";
 
 import mongo from "./mongo.png";
+import mui from "./mui.svg";
 
 import Skill from "./Skill";
 
 function SkillsSection() {
   return (
-    <div class="section skills">
+    <div className="section skills">
       <h3>What I Can Do</h3>
       <Skill
         title="Good-lookin' pages"
@@ -19,27 +20,28 @@ function SkillsSection() {
           </span>
         }
         icons={
-          <div class="tech-icons animate-3">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-js"></i>
-            <i class="fab fa-html5"></i>
+          <div className="tech-icons animate-3">
+            <i className="fab fa-html5"></i>
+            <i className="fab fa-css3-alt"></i>
+            <i className="fab fa-js"></i>
+            <i className="fab fa-html5"></i>
           </div>
         }
       />
       <Skill
         title="Fine modern web apps"
-        align="right"
+        // align="right"
         tech={
           <span>
             <strong>React</strong> and <strong>Material UI</strong>
           </span>
         }
         icons={
-          <div class="tech-icons animate-2">
-            <i class="fab fa-react"></i>
-            <i class="fab fa-bootstrap"></i>
-            <i class="fab fa-react"></i>
+          <div className="tech-icons animate-2">
+            <i className="fab fa-react"></i>
+            {/* <i class="fab fa-bootstrap"></i> */}
+            <img id="mui" src={mui} alt="" />
+            <i className="fab fa-react"></i>
           </div>
         }
       />
@@ -52,28 +54,30 @@ function SkillsSection() {
           </span>
         }
         icons={
-          <div class="tech-icons animate-2-2">
-            <i class="fab fa-node"></i>
-            <img src={mongo} alt="" />
-            <i class="fab fa-node"></i>
+          <div className="tech-icons animate-2-2">
+            <i className="fab fa-node"></i>
+            <img id="mongo" src={mongo} alt="" />
+            <i className="fab fa-node"></i>
           </div>
         }
       />
       <Skill
         title="Scripts and automation"
-        align="right"
+        // align="right"
         tech={
           <span>
             <strong>Python</strong>
           </span>
         }
         icons={
-          <div class="tech-icons animate-1">
-            <i class="fab fa-python"></i>
+          <div className="tech-icons animate-1">
+            <i className="fab fa-python"></i>
           </div>
         }
       />
-      <p>Technology fascinates me, and I can't get enough of learning more!</p>
+      <p className="skills-conclusion">
+        Technology fascinates me, and I can't get enough of learning more!
+      </p>
     </div>
   );
 }

@@ -1,7 +1,11 @@
 .main-wrapper {
   padding: 4em 0em;
   background-color: #fffdc0;
-  background-image: linear-gradient(to bottom, rgb(133, 215, 247), #fffdc0);
+  background-image: linear-gradient(
+    to bottom,
+    var(--top-background-color),
+    #fffdc0
+  );
   display: flex;
   flex-flow: row;
   justify-content: space-around;
@@ -12,7 +16,7 @@
   font-size: 2em;
 }
 
-hr {
+/* hr {
   border: 0;
   height: 2px;
   margin: 2rem;
@@ -23,4 +27,4 @@ hr {
     #3f3d3a,
     rgba(0, 0, 0, 0)
   );
-}
+} */

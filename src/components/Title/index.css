@@ -1,0 +1,93 @@
+.bg-color {
+  background-color: var(--top-background-color);
+}
+
+/* animation:
+           [animation-name] [animation-duration]
+[animation-timing-function] [animation-delay]
+[animation-iteration-count] [animation-direction]
+      [animation-fill-mode] [animation-play-state]; */
+
+.bg-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(cloudy_sky.svg);
+  width: 100%;
+  height: 40em;
+  background-size: cover;
+  /* background-position: center middle; <- on less-than-laptop screens */
+  background-position: center bottom;
+
+  border-bottom: 2px var(--top-background-color) solid;
+
+  animation: fadeInDown var(--slow) ease-out;
+}
+
+.title-container {
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+}
+
+.title-container .avatar {
+  width: 100%;
+  max-width: 7em;
+  max-height: 7em;
+  border-radius: 50%;
+  border: 2px #fff solid;
+  box-shadow: 0px 0px 0.3em #331604;
+
+  visibility: hidden;
+  animation: fadeInDown var(--fast) ease-out 0.7s forwards;
+}
+
+.title-container .title-text {
+  margin: 0em 1em;
+}
+
+.title-container h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.title-container h1 {
+  font-family: "itim", sans-serif;
+  font-size: 3em;
+  padding: 0.4rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.title-container .first-in {
+  visibility: hidden;
+  animation: fadeIn var(--fast) ease-out 1.7s forwards;
+}
+
+.title-container .second-in {
+  visibility: hidden;
+  animation: fadeIn var(--fast) ease-out 2.1s forwards;
+}
+
+.title-container h2 {
+  font-family: "sen", sans-serif;
+  display: block;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  background-size: 25rem;
+
+  visibility: hidden;
+  animation: fadeIn var(--fast) ease-out 2.8s forwards;
+}
+
+/* example media queries */
+/* @media only screen and (min-width : 768px) {
+  .bg-image { height: 320px; }
+}
+
+@media only screen and (min-width : 1200px) {
+  .bg-image { height: 400px; }
+} */

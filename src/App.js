@@ -1,18 +1,22 @@
 import React from "react";
 import "./App.css";
 
-import LeftColumn from "./components/LeftColumn";
+import Title from "./components/Title";
+// import LeftColumn from "./components/LeftColumn";
 import MainColumn from "./components/MainColumn";
-import RightColumn from "./components/RightColumn";
+// import RightColumn from "./components/RightColumn";
 import Footer from "./components/Footer";
+
+// import cloudy_sky from "./cloudy_sky.svg";
 
 function App() {
   return (
     <div className="App">
+      <Title />
       <div className="main-wrapper">
-        <LeftColumn />
+        {/* <LeftColumn /> */}
         <MainColumn />
-        <RightColumn />
+        {/* <RightColumn /> */}
       </div>
       <Footer />
     </div>

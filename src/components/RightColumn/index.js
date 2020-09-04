@@ -1,6 +1,8 @@
 import React from 'react';
 import './index.css';
 
+// import birds from '../../birds.png'
+
 function App() {
   return (
     <div className="column left-column">
@@ -8,6 +10,7 @@ function App() {
         <br />
         <br />
         R
+        {/* <img className="birds" src={birds} alt=""/> */}
         <br />
         <br />
         R
