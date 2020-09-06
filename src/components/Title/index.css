@@ -40,7 +40,7 @@
   box-shadow: 0px 0px 0.3em #331604;
 
   visibility: hidden;
-  animation: fadeInDown var(--fast) ease-out 0.7s forwards;
+  animation: fadeInDown var(--fast) ease-out 0.8s forwards;
 }
 
 .title-container .title-text {
@@ -63,7 +63,7 @@ h2 {
 
 .title-container .first-in {
   visibility: hidden;
-  animation: fadeIn var(--fast) ease-out 1.7s forwards;
+  animation: fadeIn var(--fast) ease-out 1.8s forwards;
 }
 
 .title-container .second-in {
@@ -80,7 +80,7 @@ h2 {
   background-size: 25rem;
 
   visibility: hidden;
-  animation: fadeIn var(--fast) ease-out 2.8s forwards;
+  animation: fadeIn var(--slow) ease-out 2.8s forwards;
 }
 
 /* example media queries */

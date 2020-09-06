@@ -34,13 +34,13 @@ li {
 
 html {
   overflow-y: auto;
-  background: #faf3e6;
+  /* background: #faf3e6; */
   background-size: 22em;
 }
 
 body {
   margin: 0;
-  color: #3f3d3a;
+  color: var(--theme-dark);
   overflow: hidden;
   font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -54,6 +54,10 @@ img {
 
 :root {
   --top-background-color: #50afdc;
+  --bottom-background-color: #fffdc0;
+  --theme-dark: #3f3d3a;
+  --theme-black: #222;
+
   --slow: 1.5s;
   --fast: 1s;
 }

@@ -3,8 +3,8 @@
   flex-flow: column;
 }
 
-.skills .skills-conclusion {
+.skills .skills-note {
   padding: 1em;
-  border-top: 0.15em #3f3d3a dotted;
-  border-bottom: 0.15em #3f3d3a dotted;
+  border-top: 0.15em var(--theme-dark) dotted;
+  border-bottom: 0.15em var(--theme-dark) dotted;
 }

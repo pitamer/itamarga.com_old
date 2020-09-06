@@ -8,6 +8,7 @@
 .skills .skill-text {
   margin: 0px;
   padding: 0em 1em;
+  /* color: var(--theme-dark) */
 }
 
 .skills .right {

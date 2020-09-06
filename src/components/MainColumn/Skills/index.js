@@ -6,7 +6,7 @@ import mui from "./mui.svg";
 
 import Skill from "./Skill";
 
-function SkillsSection() {
+function Skills() {
   return (
     <div className="section skills">
       <h3>What I Can Do</h3>
@@ -39,7 +39,6 @@ function SkillsSection() {
         icons={
           <div className="tech-icons animate-2">
             <i className="fab fa-react"></i>
-            {/* <i class="fab fa-bootstrap"></i> */}
             <img id="mui" src={mui} alt="" />
             <i className="fab fa-react"></i>
           </div>
@@ -75,11 +74,12 @@ function SkillsSection() {
           </div>
         }
       />
-      <p className="skills-conclusion">
-        Technology fascinates me, and I can't get enough of learning more!
+      <p className="skills-note">
+        Languages and technologies fascinate me, and I can't get enough of
+        learning more!
       </p>
     </div>
   );
 }
 
-export default SkillsSection;
+export default Skills;

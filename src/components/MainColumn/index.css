@@ -1,29 +1,33 @@
 .main-column {
-  /* height: 100%; */
   margin: 0em 1em;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
   max-width: 37em;
 }
 
 .main-column h3 {
   font-family: "sen", sans-serif;
   font-size: 2.7rem;
-  /* letter-spacing: 0.15rem; */
-  /* font-weight: 700; */
 }
 
 .main-column p {
   font-size: 1.3em;
   line-height: 1.4em;
   margin-top: 2rem;
+  /* color: var(--theme-dark); */
+  /* text-align: justify;
+  letter-spacing: -0.1px; */
 }
 
 .main-column .section {
-  margin-top: 2rem;
-  margin-bottom: 7rem;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
   /* text-align: left; */
   /* border: 1px red dashed */
 }
+
+/* .main-column .section:last-of-type {
+  margin-bottom: 0rem;
+} */
