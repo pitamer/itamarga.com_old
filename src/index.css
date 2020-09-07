@@ -34,7 +34,6 @@ li {
 
 html {
   overflow-y: auto;
-  /* background: #faf3e6; */
   background-size: 22em;
 }
 
@@ -82,4 +81,9 @@ img {
     opacity: 1;
     visibility: visible;
   }
+}
+
+::selection {
+  background-color: var(--theme-dark);
+  color: var(--bottom-background-color);
 }

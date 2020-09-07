@@ -1,36 +1,26 @@
 import React from "react";
 import "./index.css";
 
-import Resource from "./Resource";
-
 function Resources() {
   const resources = [
     {
       icon: "fa fa-envelope",
       href: "mailto:itamarga@gmail.com",
-      text: "itamarga@gmail.com"
-    },
-    {
-      icon: "fa fa-linkedin",
-      href: "\\",
-      text: "I'm here"
-    },
-    {
-      icon: "fa fa-stack-overflow",
-      href: "\\",
-      text: "Here too"
+      text: "itamarga@gmail.com",
     },
   ];
 
   return (
     <div className="section resources">
       {resources.map((resource) => (
-        <Resource
-          key={resources.indexOf(resource)}
-          icon={resource.icon}
-          href={resource.href}
-          text={resource.text}
-        />
+        <div className="resource" key={resources.indexOf(resource)}>
+          <div className="resource-icon-wrapper">
+            <a className="resource-link" href={resource.href}>
+              <i className={resource.icon} />
+            </a>
+          </div>
+          <span className="resource-text">{resource.text}</span>
+        </div>
       ))}
     </div>
   );

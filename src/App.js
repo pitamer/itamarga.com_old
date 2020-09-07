@@ -7,16 +7,12 @@ import MainColumn from "./components/MainColumn";
 // import RightColumn from "./components/RightColumn";
 import Footer from "./components/Footer";
 
-// import cloudy_sky from "./cloudy_sky.svg";
-
 function App() {
   return (
     <div className="App">
       <Title />
       <div className="main-wrapper">
-        {/* <LeftColumn /> */}
         <MainColumn />
-        {/* <RightColumn /> */}
       </div>
       <Footer />
     </div>

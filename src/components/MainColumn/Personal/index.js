@@ -15,6 +15,8 @@ function Personal() {
         <a
           className="link"
           href="https://open.spotify.com/show/6HD5lER0EM4sQfErIBawUJ?si=0bjbBsgtTkWKNPxOwn4UCg"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Osim Tochna
         </a>{" "}
@@ -22,6 +24,8 @@ function Personal() {
         <a
           className="link"
           href="https://open.spotify.com/show/5CmjtjpdcKkHDnr0601uYS?si=HkV8639ySkiosJWfLGPYUA"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Wix Engineering Podcast
         </a>

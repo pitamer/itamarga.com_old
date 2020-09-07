@@ -2,12 +2,6 @@
   background-color: var(--top-background-color);
 }
 
-/* animation:
-           [animation-name] [animation-duration]
-[animation-timing-function] [animation-delay]
-[animation-iteration-count] [animation-direction]
-      [animation-fill-mode] [animation-play-state]; */
-
 .bg-image {
   display: flex;
   align-items: center;
@@ -17,8 +11,8 @@
   width: 100%;
   height: 40em;
   background-size: cover;
-  /* background-position: center middle; <- on less-than-laptop screens */
   background-position: center bottom;
+  /* background-position: center middle; */
 
   border-bottom: 2px var(--top-background-color) solid;
 
@@ -83,11 +77,9 @@ h2 {
   animation: fadeIn var(--slow) ease-out 2.8s forwards;
 }
 
-/* example media queries */
-/* @media only screen and (min-width : 768px) {
-  .bg-image { height: 320px; }
+@media only screen and (max-width: 768px) {
+  .title-container {
+    flex-flow: column;
+    align-items: center;
+  }
 }
-
-@media only screen and (min-width : 1200px) {
-  .bg-image { height: 400px; }
-} */

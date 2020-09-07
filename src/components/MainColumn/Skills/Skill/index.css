@@ -1,22 +1,30 @@
 .skills .skill {
   display: flex;
   align-items: center;
-  margin: 0.5em 0em
-  /* justify-content: right; */
+  margin: 0.5em 0em;
 }
 
-.skills .skill-text {
+.skills .skill .skill-text {
   margin: 0px;
   padding: 0em 1em;
-  /* color: var(--theme-dark) */
 }
 
-.skills .right {
-  /* justify-self: flex-end; */
+/* .skills .right {
   margin-left: auto;
   text-align: right;
 }
 
 .skills .right .bubble-wrapper {
   order: 2;
+} */
+
+@media only screen and (max-width: 480px) {
+  .skills .skill {
+    flex-flow: column;
+    margin: 1em 0em;
+  }
+  .skills .skill .skill-text {
+    padding: 0em;
+    text-align: center;
+  }
 }

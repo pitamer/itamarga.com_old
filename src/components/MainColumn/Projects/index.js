@@ -7,7 +7,12 @@ function Projects() {
       <h3>Stuff I Did</h3>
       <p>
         I've worked as a front-end / full-stack developer at{" "}
-        <a className="link" href="https://www.tsgitsystems.com/">
+        <a
+          className="link"
+          href="https://www.tsgitsystems.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           TSG
         </a>{" "}
         for about a year.
@@ -17,36 +22,36 @@ function Projects() {
         Here are some of my open-source ones:
       </p>
       <p>
-        <a className="link" href="\\">
+        <a className="link" href="\\" target="_blank" rel="noopener noreferrer">
           Tagluz
         </a>
         <br />
-        My manager used to manage shifts through WhatsApp messages and an excel
-        file, so I built this app to enable workers to manage shifts for
+        My boss used to manage shifts through WhatsApp messages and an excel
+        file, so I built this app to enable workers to book shifts for
         themselves under management-set restrictions. It is regularly used by
         about 20 employees.
       </p>
       <p>
-        <a className="link" href="\\">
+        <a className="link" href="\\" target="_blank" rel="noopener noreferrer">
           Pystale
         </a>
         <br />
         My first real-world useful app. It automamted a tedious task routinely
         performed by dozens of employees in my company, myself included. Pyslate
-        significantly improved our department's productivity, and it got me my
+        significantly improved my department's productivity, and it got me my
         first developer role.
       </p>
       <p>
-        <a className="link" href="\\">
+        <a className="link" href="\\" target="_blank" rel="noopener noreferrer">
           itamarga.com
         </a>
         <br />
         This little webpage is a project I'm quite fond of. It took me numerous
-        iterations to find a pleasant color scheme, a font combination that
-        conveys the right message, balanced effects and a fun overall feel. And
+        attempts to find a pleasant color scheme, a font combination that
+        conveys the right message, balanced effects and a nice overall vibe. And
         it's open source, too!
       </p>
-      <p className="projects-note">
+      <p className="note">
         I also used to be a product manager in the domain of machine learning
         for a year, and an intelligence analyst for about 3 years, but we're not
         here to talk about that ;)

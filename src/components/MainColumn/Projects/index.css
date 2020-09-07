@@ -1,7 +1,3 @@
-
-.projects .projects-note {
-  padding: 1em;
-  border-top: 0.15em var(--theme-dark) dotted;
-  border-bottom: 0.15em var(--theme-dark) dotted;
+.projects .note {
   margin-top: 2.5em;
 }
