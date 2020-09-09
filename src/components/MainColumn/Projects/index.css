@@ -1,3 +1,7 @@
 .projects .note {
   margin-top: 2.5em;
 }
+
+a .smalltext {
+  font-size: small;
+}

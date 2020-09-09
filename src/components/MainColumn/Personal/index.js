@@ -7,7 +7,7 @@ function Personal() {
       <h3>Get to Know</h3>
       <p>
         I enjoy rock climbing, watching great movies, playing blues on my
-        guitar, and mornings in the desert. I also favor bycicle rides over any
+        guitar, and mornings in the desert. I also favor bicycle rides over any
         other means of transportation.
       </p>
       <p>

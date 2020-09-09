@@ -8,7 +8,7 @@ function Footer() {
     <img
       className="bottom-img"
       src={pic}
-      alt="beautiful_desert_view"
+      alt="Beautiful desert landscape"
       draggable="false"
     />
   );

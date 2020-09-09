@@ -8,7 +8,11 @@ function TitleSection() {
     <div className="bg-color">
       <div className="bg-image">
         <div className="title-container">
-          <img className="avatar" src={avatar_pic} alt="itamar_in_peru" />
+          <img
+            className="avatar"
+            src={avatar_pic}
+            alt="Itamar near a lake in Peru"
+          />
           <div className="title-text">
             <h1>
               <span className="first-in">I'm</span>{" "}

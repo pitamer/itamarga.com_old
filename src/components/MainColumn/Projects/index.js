@@ -22,8 +22,22 @@ function Projects() {
         Here are some of my open-source ones:
       </p>
       <p>
-        <a className="link" href="\\" target="_blank" rel="noopener noreferrer">
-          Tagluz
+        <a
+          className="link"
+          href="https://github.com/pitamer/tagluz_client"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Tagluz <span className="smalltext">(client)</span>
+        </a>{" "}
+        |{" "}
+        <a
+          className="link"
+          href="https://github.com/pitamer/tagluz_server"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="smalltext">(server)</span>
         </a>
         <br />
         My boss used to manage shifts through WhatsApp messages and an excel
@@ -32,17 +46,27 @@ function Projects() {
         about 20 employees.
       </p>
       <p>
-        <a className="link" href="\\" target="_blank" rel="noopener noreferrer">
+        <a
+          className="link"
+          href="https://github.com/pitamer/pyslate"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Pystale
         </a>
         <br />
-        My first real-world useful app. It automamted a tedious task routinely
+        My first real-world useful app. It automated a tedious task routinely
         performed by dozens of employees in my company, myself included. Pyslate
         significantly improved my department's productivity, and it got me my
         first developer role.
       </p>
       <p>
-        <a className="link" href="\\" target="_blank" rel="noopener noreferrer">
+        <a
+          className="link"
+          href="https://github.com/pitamer/itamarga"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           itamarga.com
         </a>
         <br />
