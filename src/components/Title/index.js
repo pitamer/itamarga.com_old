@@ -6,7 +6,10 @@ import avatar_pic from "./pita_in_peru.jpg";
 function TitleSection() {
   return (
     <div className="bg-color">
-      <div className="bg-image">
+      <div
+        className="bg-image"
+        attribution="https://www.vecteezy.com/free-vector/cloud-background"
+      >
         <div className="title-container">
           <img
             className="avatar"

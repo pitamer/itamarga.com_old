@@ -9,6 +9,7 @@ function Footer() {
       className="bottom-img"
       src={pic}
       alt="Beautiful desert landscape"
+      attribution="https://www.vecteezy.com/free-vector/cloud-background"
       draggable="false"
     />
   );

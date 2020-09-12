@@ -52,13 +52,13 @@ function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Pystale
+          Pyslate
         </a>
         <br />
-        My first real-world useful app. It automated a tedious task routinely
-        performed by dozens of employees in my company, myself included. Pyslate
-        significantly improved my department's productivity, and it got me my
-        first developer role.
+        My first real-world useful app. It automated a tedious
+        translation-related task routinely performed by dozens of employees in
+        my company, myself included. Pyslate significantly improved my
+        department's productivity, and it got me my first developer role.
       </p>
       <p>
         <a
